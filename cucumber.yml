@@ -1,0 +1,4 @@
+default: --format pretty
+html_report: --format progress --format html --out=features_report.html features
+autotest: --format pretty --color
+autotest-all: --format pretty --color
